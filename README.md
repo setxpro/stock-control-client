@@ -1,126 +1,79 @@
-# Control Stock
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
+[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
+[PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 
-[https://primeng.org/installation]
+<h1 align="center" style="font-weight: bold;">Stock Control</h1>
 
-npm install primeng
+![angular][ANGULAR__BADGE]
+![typescript][TYPESCRIPT__BADGE]
+![javascript][JAVASCRIPT__BADGE]
 
-- angular.json
+<p align="center">
+ <a href="#about">About</a> • 
+ <a href="#started">Getting Started</a> • 
+ <a href="#contribute">Contribute</a>
+</p>
 
+<h2 id="about">📌 About</h2>
+
+A Stock Controller, or Inventory Controller, tracks stock levels and ensures that the supplies are sufficient to meet the demand of customers. Their primary duties include checking stock levels, ordering additional stock and updating stock records.
+
+<h2 id="started">🚀 Getting started</h2>
+
+Here you describe how to run your project locally
+
+<h3>Prerequisites</h3>
+
+Here you list all prerequisites necessary for running your project. For example:
+
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
+
+<h3>Cloning</h3>
+
+How to clone your project
+
+```bash
+git clone https://github.com/setxpro/stock-control-client.git
+cd stock-control
 ```
 
-  "styles": [
-    "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
-    "node_modules/primeng/resources/primeng.min.css",
-    ...
-]
+<h3>Starting</h3>
 
+Now you just need to install dependencies then run it.
+
+```bash
+npm install
+npm start
 ```
 
-style.css
 
-```
-  @import "primeng/resources/themes/lara-light-blue/theme.css";
-  @import "primeng/resources/primeng.css";
-```
-@import "primeicons/primeicons.css";
+<h2 id="contribute">📫 Contribute</h2>
 
-npm install primeng --legacy-peer-deps
-npm install primeicons --legacy-peer-deps
-npm install primeflex --legacy-peer-deps
+We welcome contributions to the Text Editor project! Whether you're fixing a bug, adding a feature, or improving documentation, your input is valuable. Here's how you can contribute:
 
 
-###############################################
+1. **Create a Feature Branch**
 
-npm install primeng --force
-# ou
-npm install primeng --legacy-peer-deps
+Always work on a new branch for your changes. This keeps the main branch clean and your history organized:
 
+2. **Follow Coding Standards**
 
-"dependencies": {
-    "@angular/common": "^17.0.0",
-    // ... outras dependências ...
-}
+Consistency is key! Adhere to the coding standards and patterns established in the project. This ensures readability and maintainability of the code.
 
-###############################################
+3. **Commit Your Changes**
 
-# Angular cookie service
-ngx-cookie-service
+Write clear, concise commit messages following the [Commit Pattern Guidelines](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716). This helps in understanding the purpose of your changes and speeds up the review process.
 
-## Installation
+4. **Open a Pull Request**
 
-```
-npm install ngx-cookie-service --save
+Once your changes are ready, push your branch to your fork and [open a pull request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request) against the main repository. In your pull request description, clearly describe the problem solved or feature added. If your changes are visual, attach screenshots to help reviewers understand your modifications.
 
-# or
+5. **Wait for Review**
 
-yarn add ngx-cookie-service
-```
+The project maintainers will review your pull request. Engage in the discussion, and make any requested changes. Your contributions will be merged into the project once approved!
 
-## Usage
+<h3>Helpful links</h3>
 
-Add the cookie service to your app.module.ts as a provider:
-
-```
-import {CookieService} from 'ngx-cookie-service';
-
-@NgModule({
-  ...
-    providers:
-[CookieService],
-...
-})
-
-export class AppModule {
-}
-```
-
-Then, import and inject it into a constructor:
-
-```
-constructor(private
-cookieService: CookieService
-)
-{
-  this.cookieService.set('Test', 'Hello World');
-  this.cookieValue = this.cookieService.get('Test');
-}
-```
-That's it!
-
-
-## Create Module...
-
-
-ng g m dashboard
-
-
-## CHART JS from Primeng
-
-npm install chart.js --save
-
-"scripts": [
-              "node_modules/chart.js/dist/chart.js"
-            ] 
-
-
-
-
-
-
-
-
-## @Input() 
-`Forma de compartilhar os dados do component pai para o filho.`
-
-`No caso o component filho declara o @Input() e recebe esse valor atraves do`
-
-`[Property-Bind]="atributo_do_component_pai" => com os dados que deseja compartilhar`
-
-## @Output()
-
-`Permite emitir dados do component filho para o pai`
-`<app-input-output (deleteRequest)="crossOfftem($event)"></app-input-output>`
-
-`(deleteRequest)="crossOfftem($event)"` - Espera receber uma função que fica no component pai que espera receber um evento
-
-`$event` - valor emitido no output para o component pai
+- [Angular 16 Docs](https://angular.dev/)
