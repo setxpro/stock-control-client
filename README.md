@@ -3,6 +3,8 @@
 [ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 
+# In progress... 🚧🚧
+<br/>
 <h1 align="center" style="font-weight: bold;">Stock Control</h1>
 
 ![angular][ANGULAR__BADGE]
